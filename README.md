@@ -1,4 +1,5 @@
-# LiXizhi's Personal Website
+# Yue's Personal Website
 
 Runing on Github + Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
+Modified from LiXizhi's github page.

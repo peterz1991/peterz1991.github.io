@@ -3,6 +3,7 @@ layout: page
 title: About
 comments: true
 permalink: /about/
+mathjax: true
 ---
 
 * content
@@ -11,6 +12,8 @@ permalink: /about/
 ## About the site
 This is a personal website of LiXizhi, created with github and jekyll. 
 Create your own website is as easy as clone or fork a [template](https://github.com/LiXizhi/lixizhi.github.io) on github, and [commit](http://jekyllrb.com/docs/posts/) to `_posts` folder. 
+
+a $$\lambda$$ a
 
 ### Admin tools
 * site [configuration file](https://github.com/LiXizhi/lixizhi.github.io/blob/master/_config.yml)
