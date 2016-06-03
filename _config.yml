@@ -30,5 +30,5 @@ markdown: kramdown
 
 # highlight
 # highlighter: pygments
-# highlighter: rouge
+ highlighter: rouge
 # highlighter: false

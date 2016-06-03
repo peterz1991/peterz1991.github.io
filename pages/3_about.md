@@ -9,11 +9,12 @@ mathjax: true
 * content
 {:toc}
 
+
 ## About the site
 This is a personal website of LiXizhi, created with github and jekyll. 
 Create your own website is as easy as clone or fork a [template](https://github.com/LiXizhi/lixizhi.github.io) on github, and [commit](http://jekyllrb.com/docs/posts/) to `_posts` folder. 
 
-a $$\lambda$$ a
+a $$\lambda$$ a Test of I'm 
 
 ### Admin tools
 * site [configuration file](https://github.com/LiXizhi/lixizhi.github.io/blob/master/_config.yml)
