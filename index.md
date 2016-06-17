@@ -30,7 +30,7 @@ p.big {
 Advisor: <a href="https://filer.case.edu/wxg49/" target="_blank">Weihong Guo </a> <br>
 Email: <yxz772@case.edu> <br>
 Github: <a href="https://github.com/peterz1991" target="_blank">@peterz1991</a> <br>
-Social links:  <script src="//platform.linkedin.com/in.js" type="text/javascript"></script> <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/yue-zhang-3a5367a8" data-format="click"></script> 
+Social links:  <a href="https://www.linkedin.com/pub/yue-zhang/a8/367/3a5"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Yue Zhang's profile on LinkedIn"></a>
 </p> 
 
 </div>
