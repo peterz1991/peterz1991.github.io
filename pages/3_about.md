@@ -11,15 +11,9 @@ mathjax: true
 
 
 ## About the site
-This is a personal website of LiXizhi, created with github and jekyll. 
-Create your own website is as easy as clone or fork a [template](https://github.com/LiXizhi/lixizhi.github.io) on github, and [commit](http://jekyllrb.com/docs/posts/) to `_posts` folder. 
-
-a $$\lambda$$ a Test of I'm 
+This website is created with github and jekyll. Create your own website is as easy as clone or fork a [template](https://github.com/LiXizhi/lixizhi.github.io) on github, and [commit](http://jekyllrb.com/docs/posts/) to `_posts` folder. 
 
 ### Admin tools
-* site [configuration file](https://github.com/LiXizhi/lixizhi.github.io/blob/master/_config.yml)
-* Jekyll + [lixizhi.duoshuo.com](http://lixizhi.duoshuo.com/admin/)
-* Jekyll + [lixizhi.disqus.com](http://lixizhi.disqus.com/admin/)
 * Jekyll theme templates: [jekyllthemes.org](http://jekyllthemes.org)
    * Theme used: [cool-concise](http://jekyllthemes.org/themes/cool-concise-high-end/)
 * Jekyll official site: [jekyllrb.com](http://jekyllrb.com)
@@ -46,4 +40,3 @@ end
 {% endhighlight %}
 
 
-## About me
