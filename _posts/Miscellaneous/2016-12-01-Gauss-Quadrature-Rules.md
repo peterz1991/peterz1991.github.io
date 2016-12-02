@@ -14,6 +14,8 @@ This note is served as a summarization of Gauss quadrature rules. There are lots
 
 In this section, I will set up a toy problem and the process to tackle it with Gauss quadrature rules. In the later sections, I will try to introduce more applications. 
 
+&nbsp;
+
 __Goal:__ Our target is to estimate 
 
 $$\int_{-1}^{1} f(x) dx, $$
@@ -23,8 +25,9 @@ using numerical approximations (assume that the function is 'nice').
 We all know how to do this with Riemann sum:
 
 &nbsp;
-$$\int_{-1}^{1} f(x) dx \approx \sum_{i=1}^{n}f(x_i^*)(x_{i+1}- x_i), $$
+$$\int_{-1}^{1} f(x) dx \approx \sum_{i=1}^{n} f(x_i^*)(x_{i+1}- x_i),$$
 &nbsp;
+
 
 where $-1=x_0\leq x_1 \leq \cdots \leq x_n = 1$ is a partition of the interval [-1,1], $x_i^*$'s nodes selected in between $x_i$ and $x_{i+1}$.
 Gauss Quadrature rules aim to do the same thing. It tries to do the approximation in the following way:
@@ -36,6 +39,8 @@ $$\int_{-1}^{1} f(x) dx = \sum_{i=1}^{n}w_i g (x_i) + R[f], \tag{Gauss Quadratur
 where $g(x)$ will be a modified version of $f(x)$ according to the ONP, $R[f]$ is the residual of the approximation which depends on the regularity of $f(x)$. Of course, no matter what kind of approximations we do, the errors should always depend on both the approximation rules and $f(x)$ itself. The __art__ part of Gauss quadrature rules is to find the $w_i$ (called weight) and $x_i$ (called node) such that $R[f]$ is as small as possible.
 
 To make this part short, I will list several key facts of Gauss Quadrature rules. Later on I will try to provide some proofs.
+
+&nbsp;
 
 __Key Fact:__
 
@@ -51,6 +56,18 @@ __Key Fact:__
 
 Now we summarize the whole procedure of using Gauss Quadrature rules to approximate the integral.
 
+&nbsp;
+
 __Workflow:__
 
 <div> <center><img src="/Img/Gauss_Quadrature.png" alt=" " align="middle"></center> </div>
+
+A simple Matlab code demo for Gauss Quadrature rule with Legendre polynomials:
+
+    % n-pt Gauss quadrature of f (with Legendre polynomials)
+    beta = .5./sqrt(1-(2*(1:n-1)).^(-2)); % 3-term recurrence coeffs
+    J = diag(beta,1) + diag(beta,-1); % Jacobi matrix
+    [V,D] = eig(J); % eigenvalue decomposition
+    x = diag(D); [x,i] = sort(x); % nodes (= Legendre points)
+    w = 2*V(1,i).^2; % weights here constant c = 2.
+    I = w*f(x); % the integral from -1 to 1.
