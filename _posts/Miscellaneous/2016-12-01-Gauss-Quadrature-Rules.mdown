@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gauss Quadrature Rules"
-date:   2015-12-04
+date:   2016-12-01
 comments: true
 categories: Miscellaneous
 ---
