@@ -71,3 +71,4 @@ A simple Matlab code demo for Gauss Quadrature rule with Legendre polynomials:
     x = diag(D); [x,i] = sort(x); % nodes (= Legendre points)
     w = 2*V(1,i).^2; % weights here constant c = 2.
     I = w*f(x); % the integral from -1 to 1.
+
