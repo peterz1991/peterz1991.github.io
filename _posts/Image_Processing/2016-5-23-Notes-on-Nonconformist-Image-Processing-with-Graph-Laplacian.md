@@ -20,7 +20,7 @@ Usually, we represent the filtering in the following way:
 
 $$z = Wy,$$ 
 
-where y is vectorized image, W is _a data-dependent matrix_, it can represent local filters or global filters:
+where y is a vectorized image, W is _a data-dependent matrix_, it can represent local filters or global filters:
 
 - Local filter: Sparse, but high-rank
 - Global filter: Dense, but low-rank
@@ -56,14 +56,14 @@ Given a point $z_i$, the Laplacian transform applies on $z_i$ is defined as:
 
 $$L(z_i) = \sum_j K_{ij} (z_i-z_j)$$
 
-Notice that, this is just a __local average with certain weights $$K_{ij}$$ __. Usually, the $$K_{ij}$$ depends on the _Gaussian distance_ of $$z_i$$ and $$z_j$$.
+Notice that, this is just a __local average with certain weights__ $$K_{ij}$$. Usually, the $$K_{ij}$$ depends on the _Gaussian distance_ of $$z_i$$ and $$z_j$$.
 
-- Gaussian distance (Gaussian kernel)
+- Gaussian distance (Gaussian kernel) applied to the pixel value
 
 $$K(z_i,z_j) = \exp(-\|z_i-z_j\|^2/h_z^2)$$
 
 according to the author, this is called _photometric Gaussian Kernel_.
-Another is _Spatial Gaussian Kernel_:
+Another is _Spatial Gaussian Kernel_ (applied to the physical location of the ith pixel):
 
 $$K(x_i,x_j) = \exp(-\|x_i-x_j\|^2/h_x^2)$$
 
@@ -194,11 +194,11 @@ Suppose we solved the optimization problem and get the eigenvector $y_0, y_1, ..
 
 We can simply take the first few (say $m$) eigenvectors starting from $y_1$, and use them to 'describe' the original data:
 
-$$x_i \to (y_1(i), y_2(i),..., y_m(i)$$
+$$x_i \to (y_1(i), y_2(i),..., y_m(i))$$
 
 Just as we pick up the first few PCA components! Because these contains the key information!
 
- We will discuss it further in the next post.
+ We will discuss it further in the next post. 
 
 
 
