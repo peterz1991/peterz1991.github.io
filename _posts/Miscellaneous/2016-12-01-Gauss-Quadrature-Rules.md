@@ -24,7 +24,7 @@ We all know how to do this with Riemann sum:
 
 
 &nbsp;
-$$\int_{-1}^{1} f(x) dx \approx \sum_{i=1}^{n}f(x_i^*)(x_{i+1}- x_i), $$
+$$\int_{-1}^{1} f(x) dx \approx \sum_{i=1}^{n} f(x_i^*)(x_{i+1}- x_i),$$
 &nbsp;
 
 
