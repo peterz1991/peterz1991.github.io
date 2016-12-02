@@ -22,9 +22,11 @@ using numerical approximations (assume that the function is 'nice').
 
 We all know how to do this with Riemann sum:
 
+
 &nbsp;
 $$\int_{-1}^{1} f(x) dx \approx \sum_{i=1}^{n}f(x_i^*)(x_{i+1}- x_i), $$
 &nbsp;
+
 
 where $-1=x_0\leq x_1 \leq \cdots \leq x_n = 1$ is a partition of the interval [-1,1], $x_i^*$'s nodes selected in between $x_i$ and $x_{i+1}$.
 Gauss Quadrature rules aim to do the same thing. It tries to do the approximation in the following way:
