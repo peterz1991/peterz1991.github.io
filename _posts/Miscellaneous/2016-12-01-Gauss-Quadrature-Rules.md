@@ -53,4 +53,4 @@ Now we summarize the whole procedure of using Gauss Quadrature rules to approxim
 
 __Workflow:__
 
-<div> <center><img src="/Img/Gauss_Quadrature.png" alt=" " align="middle" height="100" width="600"></center> </div>
+<div> <center><img src="/Img/Gauss_Quadrature.png" alt=" " align="middle"></center> </div>
