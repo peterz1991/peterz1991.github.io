@@ -26,6 +26,8 @@ $$\min_i \sum_{j} a_{ij} \leq r \leq \max_i \sum_{j} a_{ij},$$
 
 namely, min of column sum $$< r <$$ max of column sum.
 
+&nbsp;
+
 - ## [Kronecker Product]():
     
 It has been a long time that I really want to learn and prove the properties of the Kronecker product, as it pops up in so many places in image processing and finite element methods. Here I give several key properties of it, suppose we have
@@ -46,9 +48,13 @@ The following holds:
 
     $$(U_r\Sigma_rV_r^T) \otimes (U_c\Sigma_c V_c^T) = (U_r\otimes U_c) (\Sigma_r\otimes \Sigma_c)(V_r\otimes V_c)^T.$$
 
+&nbsp;
+- ## [Gerschgorin circle theorem](https://en.wikipedia.org/wiki/Gershgorin_circle_theorem "wiki page"):
 
-- ## [Gerschgorin circle theorem](https://en.wikipedia.org/wiki/Gershgorin_circle_theorem, "wiki page"):
+&nbsp;
 
-- ## [Schur Complement](https://en.wikipedia.org/wiki/Schur_complement, "wiki page"):
+- ## [Schur Complement](https://en.wikipedia.org/wiki/Schur_complement "wiki page"):
 
-- ## [Sherman–Morrison–Woodbury formula](https://en.wikipedia.org/wiki/Woodbury_matrix_identity, "wiki page"):
+&nbsp;
+
+- ## [Sherman–Morrison–Woodbury formula](https://en.wikipedia.org/wiki/Woodbury_matrix_identity "wiki page"):

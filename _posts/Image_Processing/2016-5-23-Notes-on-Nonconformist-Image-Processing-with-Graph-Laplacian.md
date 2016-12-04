@@ -120,6 +120,10 @@ BTW, the Laplacian matrix is __positive semi-definite__, so the above target fun
 <div> <center><img src="/Img/Diag_dominant2.png" alt=" " height="300" width="600"></center> </div>
 It can be shown that a Hermitian diagonally dominant matrix $A$ with real non-negative diagonal entries is positive semidefinite.
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 # 2 Application in Image Processing
 
 ## 2.1 De-blurring: adaptive sharpening
@@ -142,6 +146,8 @@ The following image is cropped from
 
 
 The code is <a href="https://users.soe.ucsc.edu/~aminkh/KernelRestoration.html" target="_blank">here</a>.
+
+&nbsp;
 
 ### Let's stop talking:
 
