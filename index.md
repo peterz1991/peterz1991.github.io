@@ -38,7 +38,7 @@ Social links:  <a href="https://www.linkedin.com/pub/yue-zhang/a8/367/3a5"><img 
 ---
 
 
-Yue is a currently a PhD student major in applied mathematics, supervised by Prof. <a href="https://filer.case.edu/wxg49/" target="_blank">Weihong Guo </a>. Before joined CWRU, Yue got his BS in pure math at Nankai University, Tianjin, China, where he is a student in <a href="http://www.baike.com/wiki/%E4%BC%AF%E8%8B%93%E7%8F%AD" target="_blank">Po-ling Class</a>. His research interest lies in between theoretical mathematics and advanced modeling in image processing and machine learning, especially models with _sparsity_ constrain. 
+Yue is currently a PhD student major in applied mathematics, supervised by Prof. <a href="https://filer.case.edu/wxg49/" target="_blank">Weihong Guo </a>. Before joined CWRU, Yue got his BS in pure math at Nankai University, Tianjin, China, where he is a student in <a href="http://www.baike.com/wiki/%E4%BC%AF%E8%8B%93%E7%8F%AD" target="_blank">Po-ling Class</a>. His research interest lies in between theoretical mathematics and advanced modeling in image processing and machine learning, especially models with _sparsity_ constrain. 
 
 This website is designed for sharing the ideas. The posts will include notes on classes, conferences as well as papers. The goal is to explore the beauty as well as the inherent relations between many of the state-of-the-art work in image processing and machine learning.
 
