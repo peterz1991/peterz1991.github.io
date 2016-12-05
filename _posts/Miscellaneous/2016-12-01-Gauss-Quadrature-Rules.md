@@ -29,12 +29,14 @@ We all know how to do this with Riemann sum:
 &nbsp;
 $$\int_{-1}^{1} f(x) dx \approx \sum_{i=1}^{n} f(x_i^*)(x_{i+1}- x_i), \tag*{}$$
 &nbsp;
+
 where $-1=x_0\leq x_1 \leq \cdots \leq x_n = 1$ is a partition of the interval [-1,1], $x_i^*$'s nodes selected in between $x_i$ and $x_{i+1}$.
 Gauss Quadrature rules aim to do the same thing. It tries to do the approximation in the following way:
 
 &nbsp;
 $$\int_{-1}^{1} f(x) dx = \sum_{i=1}^{n}w_i g (x_i) + R[f], \tag{Gauss Quadrature}$$
 &nbsp;
+
 where $g(x)$ will be a modified version of $f(x)$ according to the ONP, $R[f]$ is the residual of the approximation which depends on the regularity of $f(x)$. Of course, no matter what kind of approximations we do, the errors should always depend on both the approximation rules and $f(x)$ itself. The __art__ part of Gauss quadrature rules is to find the $w_i$ (called weight) and $x_i$ (called node) such that $R[f]$ is as small as possible.
 
 To make this part short, I will list several key facts of Gauss Quadrature rules. Later on I will try to provide some proofs.
