@@ -11,12 +11,12 @@ permalink: /Resources/
 Everything of Coding
 ====================================
 - [Awesome Series on Github]("https://github.com/sindresorhus/awesome"). Basically you can find everything about coding here. It's a collection of awesome projects!
-- Compressive Sensing Group at Rice Univ. Unfortunately, recently they moved the website to another place where I could not find.
+
 
 Compressive Sensing
 =====================================
 - [Nuit Blanche]("http://nuit-blanche.blogspot.com/"). If you are telling me that you do some compressive sensing but you never heard about Nuit Blanche, you should probably do your homework again.
-- [Rice ]
+- Compressive Sensing Group at Rice Univ. Unfortunately, recently they moved the website to another place where I could not find.
 
 Optimization
 ================================
