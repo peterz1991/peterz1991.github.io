@@ -43,3 +43,5 @@ Yue is currently a PhD student major in applied mathematics, supervised by Prof.
 This website is designed for sharing the ideas. The posts will include notes on classes, conferences as well as papers. The goal is to explore the beauty as well as the inherent relations between many of the state-of-the-art work in image processing and machine learning.
 
 You will be very welcome for any discussions. 
+
+Life is short. Keep learning.
