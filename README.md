@@ -1,5 +1,3 @@
 # Yue's Personal Website
 
-Runing on Github + Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
-
-Modified from LiXizhi's github page.
+[peterz1991.github.io](http://peterz1991.github.io)
