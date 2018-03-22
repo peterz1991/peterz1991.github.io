@@ -17,6 +17,7 @@ Compressive Sensing
 =====================================
 - [Nuit Blanche]("http://nuit-blanche.blogspot.com/"). If you are telling me that you do some compressive sensing but you never heard about Nuit Blanche, you should probably do your homework again.
 - Compressive Sensing Group at Rice Univ. Unfortunately, recently they moved the website to another place where I could not find.
+- [Terence Tao's Blog]("https://terrytao.wordpress.com/"). Of course CS is just a part-time job for Terry. But I have learned so much from his blog. More than just the fancy math, Terry's thinking pattern is the one that inspires me the most.
 
 Optimization
 ================================
